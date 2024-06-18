@@ -32,8 +32,8 @@ Go through these binary file formats to ensure nothing is missed out in the stru
 
 > These were generated via chatGPT and may be incorrect.
 
-1. PE (Portable Executable)
-2. ELF
+1. [ELF](./formats-analyses/elf.md) 🔃
+2. PE (Portable Executable)
 3. Mach-O (Mach Object)
 4. COFF (Common Object File Format)
 5. a.out (Assembler Output)
