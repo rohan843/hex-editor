@@ -25,4 +25,4 @@ Consider an example for structure configs: ELF files have a file header structur
 12. Installing the tool must be simple, easy even for complete beginners. Running the tool must also be straightforward, including the command line args.
 13. Manual docs must be made available for the tool. Also, hints should be provided for keyboard commands.
 14. The tool must have focus on endianness. Its possible that in a little endian file, a user wants to search for a number that they specified in big endain format. I.e., the user may want to find `2A3DAA` but this may be stored as `AA 3D 2A 00 00 00 00 00`.
-15. A byte can only be in one structure. Structures cannot overlap. All bytes need to be in exactly one structure. 
+15. A byte can only be in one structure. Structures cannot overlap. All bytes need to be in exactly one structure.
