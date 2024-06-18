@@ -73,4 +73,4 @@ Go through these binary file formats to ensure nothing is missed out in the stru
 39. VHD (Virtual Hard Disk)
 40. PSD (Photoshop Document)
 
-These formats must be analysed one by one, and the analysis must be written in the folder [format-analyses](./formats-analyses/). Focus on what provisions a config language must provide to incorporate these formats.
+These formats must be analysed one by one, and the analysis must be written in the folder [format-analyses](./formats-analyses/). Focus on what provisions a config language must provide to incorporate these formats. Update the [config specification](./config-spec.md) accordingly.
