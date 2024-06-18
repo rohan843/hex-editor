@@ -27,3 +27,48 @@ Consider an example for structure configs: ELF files have a file header structur
 14. The tool must have focus on endianness. Its possible that in a little endian file, a user wants to search for a number that they specified in big endain format. I.e., the user may want to find `2A3DAA` but this may be stored as `AA 3D 2A 00 00 00 00 00`.
 15. A byte can only be in one structure. Structures cannot overlap. All bytes need to be in exactly one structure.
 16. Structures can have varying sizes based on values of data members. I.e., the same structure can have different byte sizes based on one of its data members.
+
+Go through these binary file formats to ensure nothing is missed out in the structure config:
+
+> These were generated via chatGPT and may be incorrect.
+
+1. PE (Portable Executable)
+2. ELF
+3. Mach-O (Mach Object)
+4. COFF (Common Object File Format)
+5. a.out (Assembler Output)
+6. XCOFF (Extended Common Object File Format)
+7. ECOFF (Extended Common Object File Format)
+8. DOS MZ (DOS MZ Executable)
+9. NE (New Executable)
+10. LE (Linear Executable)
+11. LX (Linear eXecutable)
+12. Fat Binary
+13. Universal Binary
+14. DEX (Dalvik Executable)
+15. ELF-PS (ELF-Portable Subsystem)
+16. PNG (Portable Network Graphics)
+17. JPEG (Joint Photographic Experts Group)
+18. GIF (Graphics Interchange Format)
+19. BMP (Bitmap)
+20. TIFF (Tagged Image File Format)
+21. MP3 (MPEG Layer 3)
+22. WAV (Waveform Audio File Format)
+23. FLAC (Free Lossless Audio Codec)
+24. AAC (Advanced Audio Coding)
+25. MP4 (MPEG-4 Part 14)
+26. AVI (Audio Video Interleave)
+27. MKV (Matroska Video)
+28. MOV (QuickTime File Format)
+29. PDF (Portable Document Format)
+30. DOCX (Microsoft Word Open XML Format)
+31. XLSX (Microsoft Excel Open XML Format)
+32. PPTX (Microsoft PowerPoint Open XML Format)
+33. ZIP
+34. RAR
+35. 7Z
+36. MDB (Microsoft Access Database)
+37. SQLite
+38. ISO (ISO Image)
+39. VHD (Virtual Hard Disk)
+40. PSD (Photoshop Document)
